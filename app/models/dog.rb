@@ -13,4 +13,7 @@ attr_accessor :name, :breed, :age
     @@all
   end
 
+  def save
+    @@all << self
+  end
 end
